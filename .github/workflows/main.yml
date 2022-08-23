@@ -4,7 +4,6 @@
 # Version Date Info
 # 1.0 2022 Initial Version
 #
-# Made by Punit Kumar Copyright
 #---------------------------------------------------------------------
 name: CI-CD-Pipeline-to-AWS-ElasticBeanstalk
 env:
@@ -17,7 +16,7 @@ env:
 on: 
  push:
   branches: 
-     - master
+    - master
 jobs:
    my_ci_pipeline:
        runs-on: ubuntu-latest
