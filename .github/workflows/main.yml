@@ -19,7 +19,7 @@ on:
   branches: 
      - master
 jobs:
-    my_ci_pipeline:
+   my_ci_pipeline:
        runs-on: ubuntu-latest
  
        steps:
